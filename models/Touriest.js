@@ -6,7 +6,7 @@ const touristSchema = new mongoose.Schema({
         required: true
     },
     Email: {
-        type: Number,
+        type: String,
         required: true
     },
     Location: {
