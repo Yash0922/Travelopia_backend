@@ -1,4 +1,4 @@
-const {connectDatabase} =require('./config/db')
+const { connectDatabase } =require('./config/db');
 const express = require('express');
 const cors = require('cors');
 const {collegeRouter} = require('./Routes/collegeRouter')
@@ -13,7 +13,7 @@ app.use("/",collegeRouter);
 
 
 
-const port = 3000;
+const port = 8080;
 connectDatabase()
 .then(() => {
     app.listen(port, (e) => {
