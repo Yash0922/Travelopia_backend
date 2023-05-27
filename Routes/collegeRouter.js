@@ -12,7 +12,7 @@ try{
    
     let result = await  getData();
 
-    res.send(`Data Get Sucess: ${result}`);
+    res.send(result);
 
 }
 catch(e){
