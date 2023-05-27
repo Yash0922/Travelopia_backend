@@ -28,3 +28,9 @@ const touristSchema = new mongoose.Schema({
 const Touriest = mongoose.model('touriest', touristSchema)
 
 module.exports= {Touriest};
+
+// "name":"aman",
+// "Email":"yahs@gmail.com",
+// "Location":"India",
+// "Number_of_touriest":1,
+// "Budget_per_person":5000

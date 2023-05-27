@@ -10,6 +10,10 @@ app.use(cors())
 
 app.use("/",collegeRouter);
 
+app.get("/", async (req,res)=>{
+  
+    res.send("<h1>API WorkSucessful</h1>")
+})
 
 
 
