@@ -29,7 +29,7 @@ try{
     let result = await addData(data)
 
     // console.log(result);
-    res.send(`Data Post Sucess: ${result}`);
+    res.send(result);
 }
     catch(error){
         console.log("Post Error",error)
